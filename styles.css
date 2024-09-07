@@ -1,9 +1,14 @@
-/*  your css code here. If applicable */
 /* Ensure the body has margin and padding set to avoid overflow */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
 
 .star {
-	top:50px;
-    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 50px;
     display: inline-block;
     color: yellow;
     width: 0;
